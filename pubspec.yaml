@@ -1,0 +1,27 @@
+name: flutter_delivery_app
+description: Application livreur pour recevoir et gérer les commandes
+publish_to: 'none' # car ce n'est pas destiné à pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  shared_preferences: ^2.2.0
+  intl: ^0.19.0
+  google_fonts: ^6.2.1   # <- ajouté pour la typo moderne
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+
+
